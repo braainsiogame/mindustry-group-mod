@@ -5,7 +5,7 @@ size: 1
 hasPower: true
 hasItems: false
 itemDuration: 30
-powerProduction: 3.0
+powerProduction: 30.0
 requirements: [
   copper/100
   lead/150
@@ -13,4 +13,4 @@ requirements: [
   graphite/30
 ]
 category: power
-research: silver-crucible
+research: solar-panel
