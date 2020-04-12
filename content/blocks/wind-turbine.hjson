@@ -1,10 +1,8 @@
-type: SingleTypeGenerator
+type: SolarGenerator
 name: Wind Turbine
 description: the rotor in the turbine go vroom vroom
 size: 1
 hasPower: true
-hasItems: false
-itemDuration: 30
 powerProduction: 30.0
 requirements: [
   copper/100
