@@ -1,0 +1,21 @@
+type: SingleTypeGenerator
+name: Wind Turbine
+description: the rotor in the turbine go vroom vroom
+size: 1
+hasPower: true
+hasItems: false
+itemDuration: 30
+powerProduction: 3.0
+consumes: {
+  items: {
+    items: [
+  }
+}
+requirements: [
+  copper/100
+  lead/150
+  silicon/40
+  graphite/30
+]
+category: power
+research: silver-crucible

@@ -1,0 +1,28 @@
+type: GenericSmelter
+name: Copper Forge
+description: you thought it was a description but it was me, dio!
+liquidCapacity: 0
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.1
+  items: {
+    items: [
+      sand/2
+    ]
+   }
+}   
+requirements: [
+  lead/50
+  thorium/80
+  silicon/60
+]
+category: crafting
+research: silicon-smelter
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: copper/100
