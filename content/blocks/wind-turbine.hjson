@@ -6,11 +6,6 @@ hasPower: true
 hasItems: false
 itemDuration: 30
 powerProduction: 3.0
-consumes: {
-  items: {
-    items: [
-  }
-}
 requirements: [
   copper/100
   lead/150
